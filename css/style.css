@@ -1,0 +1,473 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header li{
+    list-style: none;
+    margin: 5px;
+}
+
+header li a{
+    text-decoration: none;
+    color: black;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-fluid img{
+    width: 175px;
+}
+
+/*MAIN*/
+
+
+.info-main{
+    background-color: #171669;
+}
+.info-main div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-main-2 p{
+    margin: 25px 15px;
+    font-size: 1em;
+    line-height: 1.714285;
+}
+.boton-info{
+    margin: 25px 0;
+    background-color: #171669;
+    color: white;
+    padding: 18px 14px;
+    border-radius: 25%;
+    border: 1px solid white;
+    justify-content: center;
+    font-weight: bold;
+}
+.boton-info:hover{
+    background-color: rgb(124, 20, 236);
+}
+.poliza{
+    display: flex;
+    flex-direction: column;
+}
+
+.poliza p{
+    color: white;
+}
+
+.poliza a{
+    text-decoration: none;
+    color: white;
+}
+
+.comprobante{
+    display: flex;
+    flex-direction: column;
+}
+
+.comprobante p{
+    color: white;
+}
+
+.comprobante a{
+    text-decoration: none;
+    color: white;
+}
+
+.sucursales{
+    display: flex;
+    flex-direction: column;
+}
+
+.sucursales p{
+    color: white;
+}
+
+.sucursales a{
+    text-decoration: none;
+    color: white;
+}
+
+/*BANNER COBERTURA*/
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(237, 234, 234);
+}
+
+.banner a{
+    text-decoration: none;
+    color: white;
+}
+
+.banner p{
+    margin: 25px 15px;
+}
+
+/*SEGUROS PERSONAS Y PROFESIONALES*/
+
+.seguros-pp .pp{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 25px;
+}
+
+.seguros-pp .encabezado-seguros{
+    margin: 25px;
+}
+
+.seguros-pp h2{
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    color: #171669;
+    line-height: 1.33;
+}
+
+
+.pp div{
+    margin: 15px 0;
+}
+
+.pp img{
+    width: 255px;
+}
+
+.pp h4{
+    color: #171669;
+    font-size: 1em;
+    margin: 15px 0;
+    font-weight: 700;
+}
+
+.pp small{
+    margin: 15px 0;
+}
+
+.pp a{
+    text-decoration: none;
+    color: white;
+}
+
+.pp p{
+    font-size: .857142em;
+    color: #515254;
+    font-weight: bolder;
+}
+
+/*HR*/
+
+main hr{
+    height: 1px;
+    opacity: .5;
+    background: #e0e0e0;
+    max-width: 896px;
+    margin: 0 auto -2px;
+}
+
+/*SEGUROS PARA EMPRESAS*/
+
+/*COBERTURA ADECUADA*/
+
+.cobertura-adecuada{
+    background-color: #171669;
+}
+.cobertura-adecuada .c-a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    padding: 0 25px ;
+}
+
+.c-a h3{
+    color: white;
+    margin: 25px 0;
+}
+
+.c-a p{
+    color: white;
+    font-weight: 400;
+}
+
+.c-a a{
+    text-decoration: none;
+    color: white;
+}
+
+/*SUMATE A LA RED*/
+
+.red {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    align-items: center;
+}
+
+.red p{
+    font-size: .857142em;
+    color: #515254;
+    font-weight: bolder;
+}
+
+.red a{
+    text-decoration: none;
+    color: white;
+}
+
+/*APP*/
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+
+.app img{
+    width: 300px;
+}
+
+/*BOTONES APP*/
+
+.botones-app a{
+    text-decoration: none;
+    color: white;
+}
+
+/*FOOTER*/
+.footer h3{
+    color: #171669;
+    font-size: 1em;
+    margin: 15px 0;
+    padding: 0 15px;
+    font-weight: 700;
+}
+.top-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+
+.top-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.bottom-footer{
+    background-color: #171669;
+}
+
+.b-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.b-footer h3{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+.ul-footer{
+    display: flex;
+    margin: 25px;
+}
+
+.ul-footer li{
+    list-style: none;
+    margin: 25px;
+}
+
+/*UL-B-FOOTER*/
+
+.ul-b-footer{
+    display: flex;
+    margin: 25px;
+}
+
+.ul-b-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.ul-b-footer li{
+    list-style: none;
+    color: rgb(193, 185, 185);
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.right-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-footer p{
+    color: rgb(166, 159, 159);
+}
+
+.right-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+/*GALERIA*/
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .gallery-item:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-gallery {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.btn-gallery:hover {
+  background-color: #190eaf;
+  color: #fff;
+}
+
+.gallery-main{
+    margin: 15px;
+}
+
+.h1-gallery{
+    color: #171669;
+    font-size: 3em;
+    margin: 15px 0;
+    padding: 0 15px;
+    font-weight: 700;
+}
+    
+/*MEDIA*/
+
+@media(min-width: 550px){
+    .info-main div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .info-main-2 div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .info-main-2 p{
+        margin: 25px;
+        padding-top: 25px;
+    }
+
+    section .banner{
+        display: flex;
+        flex-direction: row;
+    }
+    .seguros-pp .pp{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    .pp div{
+        padding: 25px ;
+    }
+
+    .seguros-pp .pp img{
+        width: 250px;
+    }
+
+    .sumate-red .red{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .botones-app{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .top-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .bottom-footer{
+        display: flex;
+        flex-direction: row;
+    }
+}
